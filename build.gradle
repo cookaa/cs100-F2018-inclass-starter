@@ -22,19 +22,12 @@ wrapper {
   gradleVersion = '4.9'
 }
 
-// declare values to place in the manifest file in the JAR
-jar {
-  manifest {
-    attributes(
-        'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-        'Main-Class': 'labone.DisplayOutput'
-        )
-  }
+// run: runExploreDataTypes
+task(runExploreDataTypes, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.ExploreDataTypes program'
+    main = 'inclass.ExploreDataTypes'
+    classpath = sourceSets.main.runtimeClasspath
 }
-
-// give the name of the application to run with "gradle run" command
-apply plugin: 'application'
-mainClassName = 'inclass.ExploreDataTypes'
 
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
