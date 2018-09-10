@@ -1,4 +1,4 @@
-# cs100-F2018-inclass-starter
+# cs100-F2018-inclass-solution
 
 ## Introduction
 
@@ -47,13 +47,12 @@ for assistance about how to run the different programs.
 In addition to meeting all of the requirements outlined in the assignment sheet,
 your submission must pass the following checks:
 
-- labone/DisplayOutput.java:
+- inclass/ExploreDataTypes.java:
   - Features at least two single-line comments
   - Features at least two multiple-line comments
   - Contains exactly four uses of a `println(` statement
   - Contains exactly one use of a `new Date(` statement
-  - Runs correctly without crashing or producing an error
-  - Produces exactly four lines of output in the terminal
+  - Contains at least 33 non-blank lines of source code
 
 ## Updates
 
