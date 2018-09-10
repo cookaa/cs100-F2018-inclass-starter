@@ -10,8 +10,8 @@ green &#x2714;), the programmer is responsible for completing all of the steps
 needed to satisfy the requirements for the assignment, thus causing a &#x2714;
 to instead appear in the commit logs. All of the work that you do for your
 in-class assignments will count towards your class participation grade. You must
-complete each of these assignments no later than 9 am on day following the class
-in which we discussed the project.
+complete each of these assignments no later than 9 am on the day following the
+class in which we discussed the project.
 
 ## Commands
 
