@@ -2,9 +2,9 @@ package inclass;
 
 import java.util.Date;
 
-/** This class displays four lines of output.
- * The first line displays the name of the programmer and the date. Each one of
- * the next three lines displays a single statement created by the programmer.
+/** This class explores different data types.
+ *  The first lines of code will declare variables. Then, the program will
+ *  try to assign a value to a variable that is declared as a constant.
  *
  * <p>Bugs: This program has no known bugs.
  *
@@ -24,8 +24,11 @@ public class ExploreDataTypes {
   public static void main(String[] args) {
     // declare variables of different data types
     int age = 19;
+    double pi = 3.14159265358979;
+    float weight = 122.5f;
     String name = "Gregory M. Kapfhammer";
-
+    String space = " ";
+    // print out all of the variables
   }
 
 }
