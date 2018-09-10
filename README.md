@@ -1,4 +1,4 @@
-# cs100-F2018-inclass-solution
+# cs100-F2018-inclass-starter
 
 ## Introduction
 
@@ -8,7 +8,10 @@ Computer Science 100. Since the Travis builds for this repository will initially
 fail (as evidenced by a red &#x2717; appearing in the commit logs instead of a
 green &#x2714;), the programmer is responsible for completing all of the steps
 needed to satisfy the requirements for the assignment, thus causing a &#x2714;
-to instead appear in the commit logs.
+to instead appear in the commit logs. All of the work that you do for your
+in-class assignments will count towards your class participation grade. You must
+complete each of these assignments no later than 9 am on day following the class
+in which we discussed the project.
 
 ## Commands
 
@@ -44,8 +47,8 @@ for assistance about how to run the different programs.
 
 ## Checks
 
-In addition to meeting all of the requirements outlined in the assignment sheet,
-your submission must pass the following checks:
+In addition to meeting all of the requirements outlined in class, your
+submission must pass the following checks:
 
 - inclass/ExploreDataTypes.java:
   - Features at least two single-line comments
