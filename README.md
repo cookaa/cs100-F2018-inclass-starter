@@ -3,15 +3,16 @@
 ## Introduction
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the starter for the in-class programming that you will do in
-Computer Science 100. Since the Travis builds for this repository will initially
-fail (as evidenced by a red &#x2717; appearing in the commit logs instead of a
-green &#x2714;), the programmer is responsible for completing all of the steps
-needed to satisfy the requirements for the assignment, thus causing a &#x2714;
-to instead appear in the commit logs. All of the work that you do for your
-in-class assignments will count towards your class participation grade. You must
-complete each of these assignments no later than 9 am on the day following the
-class in which we discussed the project.
+repository contains the starter for the in-class programming that you will do
+in Computer Science 100. Since the Travis builds for this repository will
+initially fail (as evidenced by a red &#x2717; appearing in the commit logs
+instead of a green &#x2714;), the programmer is responsible for completing all
+of the steps needed to satisfy the requirements for the in-class programming
+project, thus causing a &#x2714; to instead appear in the commit logs. All of
+the work that you do for your in-class assignments will count towards your
+class participation grade. You must complete each of these assignments no later
+than 9:00 a.m. on the day following the class in which the instructor
+introduced the project.
 
 ## Commands
 
@@ -38,6 +39,10 @@ program's source code if it is a correct program) the program using the command
 To run one of these commands, you must be in the main (or "home base") directory
 for this assignment where the `build.gradle` file is located. Then, you can type
 the command in the terminal and study the output.
+
+Here are the commands that are related to each of the in-class programming projects:
+
+- `gradle runExploreDataTypes` to run the `inclass.ExploreDataTypes` program
 
 ## Output
 
