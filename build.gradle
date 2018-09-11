@@ -2,7 +2,7 @@
 // "gradle check": run checkstyle to assess code quality
 // "gradle clean": clean the project of all derived files
 // "gradle build": create the bytecode from the source code
-// "gradle run": run the program and produce output
+// "gradle runSPECIFICTASK": run the program and produce output
 
 // comment out gatorgradle if you want to use dev version
 plugins {

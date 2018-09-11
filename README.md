@@ -33,8 +33,7 @@ program's source code if it is a correct program) the program using the command
 - `gradle clean`: clean the project of all the derived files
 - `gradle check`: check the quality of the code using Checkstyle
 - `gradle build`: create the bytecode from the Java source code
-- `gradle run`: run the Java program in the command-line
-- `gradle tasks`: display details about the Gradle system
+- `gradle tasks --all`: display details about the Gradle system
 
 To run one of these commands, you must be in the main (or "home base") directory
 for this assignment where the `build.gradle` file is located. Then, you can type
@@ -113,7 +112,7 @@ developed for the following software and versions:
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 100 Lab 1
+you can go to the [Computer Science 100 In-Class
 Starter](https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-inclass-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
@@ -122,8 +121,9 @@ you assignment, then you can follow the aforementioned steps to create an issue
 in its repository. To ensure that your issue is properly resolved, please
 provide as many details as is possible about the problem that you experienced.
 Students who find &mdash; and use the appropriate GitHub issue tracker to
-correctly document &mdash; a mistake in any aspect of this laboratory assignment
-will receive free GitHub stickers and extra credit towards their grade for it.
+correctly document &mdash; a mistake in any aspect of these in-class
+assignments will receive free GitHub stickers and extra credit towards their
+grade for it.
 
 ## Assistance
 
