@@ -42,6 +42,7 @@ the command in the terminal and study the output.
 Here are the commands that are related to each of the in-class programming projects:
 
 - `gradle runExploreDataTypes` to run the `inclass.ExploreDataTypes` program
+- `gradle -q --console plain runComputeGasMileage` to run the `inclass.ComputeGasMileage` program
 
 ## Output
 
