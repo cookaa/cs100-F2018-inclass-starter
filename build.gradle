@@ -29,6 +29,14 @@ task(runExploreDataTypes, dependsOn: 'classes', type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
+// run: runComputeGasMileage
+task(runComputeGasMileage, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.ComputeGasMileage program'
+    main = 'inclass.ComputeGasMileage'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
 checkstyle.toolVersion = '8.1'
