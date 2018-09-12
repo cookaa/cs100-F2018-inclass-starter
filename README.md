@@ -62,6 +62,13 @@ submission must pass the following checks:
   - Contains exactly one use of a `new Date(` statement
   - Contains at least 33 non-blank lines of source code
 
+- inclass/ComputeGasMileage.java:
+  - Features at least four single-line comments
+  - Features at least two multiple-line comments
+  - Contains exactly one use of a `println(` statement
+  - Contains exactly two uses of a `print(` statement
+  - Contains at least 35 non-blank lines of source code
+
 ## Updates
 
 If the course instructor updates the provided material for this assignment and
