@@ -46,6 +46,8 @@ before_script:
 # run checks on a student's Java code through gradle and GatorGrader
 # run checks on a student's Markdown writing through GatorGrader
 # note: "gradle grade" will install GatorGrader and run all checks
+# note: do not run these programs as each as its own run command
+# note: do not run these programs as some require user interaction
 script:
   # lint the assignment's documentation
   - mdl README.md
