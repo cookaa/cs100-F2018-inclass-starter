@@ -13,3 +13,11 @@ src/main:
             --multi 2 --language Java
             --fragment "println(" --count 4 --exact
             --fragment "new Date(" --count 1 --exact
+src/main:
+    java:
+        inclass/ComputeGasMileage.java:
+            --count 35
+            --single 4 --language Java
+            --multi 2 --language Java
+            --fragment "print(" --count 2 --exact
+            --fragment "println(" --count 1 --exact
