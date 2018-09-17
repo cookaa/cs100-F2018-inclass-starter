@@ -43,6 +43,7 @@ Here are the commands that are related to each of the in-class programming proje
 
 - `gradle runExploreDataTypes` to run the `inclass.ExploreDataTypes` program
 - `gradle -q --console plain runComputeGasMileage` to run the `inclass.ComputeGasMileage` program
+- `gradle -q -console plain runLogisticMap --args='0'`
 
 ## Output
 
@@ -65,9 +66,12 @@ submission must pass the following checks:
 - inclass/ComputeGasMileage.java:
   - Features at least four single-line comments
   - Features at least two multiple-line comments
-  - Contains exactly one use of a `println(` statement
   - Contains exactly two uses of a `print(` statement
+  - Contains exactly one use of a `println(` statement
   - Contains at least 35 non-blank lines of source code
+
+- inclass/DisplayLogisticMap.java:
+  - Contains at least 95 non-blank lines of source code
 
 ## Updates
 
