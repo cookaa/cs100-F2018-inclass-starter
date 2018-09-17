@@ -21,3 +21,7 @@ src/main:
             --multi 2 --language Java
             --fragment "print(" --count 2 --exact
             --fragment "println(" --count 1 --exact
+src/main:
+    java:
+        inclass/DisplayLogisticMap.java:
+            --count 95
