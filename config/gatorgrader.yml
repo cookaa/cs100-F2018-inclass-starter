@@ -25,3 +25,8 @@ src/main:
     java:
         inclass/DisplayLogisticMap.java:
             --count 95
+src/main:
+    java:
+        inclass/PerformStringMutation.java:
+            --count 40
+            --fragment "println(" --count 7 --exact
