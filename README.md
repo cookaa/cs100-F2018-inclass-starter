@@ -48,9 +48,9 @@ Here are the commands that are related to each of the in-class programming proje
 
 ## Output
 
-Typing the command `gradle run` in the terminal window will produce output for
-your various in-class programming assignments. Please ask the course instructor
-for assistance about how to run the different programs.
+Typing the appropriate Gradle command in the terminal window will produce output
+for your various in-class programming assignments. Please ask the course
+instructor for assistance about how to run the different programs.
 
 ## Checks
 
@@ -77,6 +77,13 @@ submission must pass the following checks:
 - inclass/PerformStringMutation.java:
   - Contains exactly seven uses of a `println(` statement
   - Contains at least 40 non-blank lines of source code
+
+- inclass/CompareInputValues.java
+  - Features at least four single-line comments
+  - Features at least two multiple-line comments
+  - Contains exactly two uses of a `print(` statement
+  - Contains exactly two uses of a `println(` statement
+  - Contains at least 37 non-blank lines of source code
 
 ## Updates
 
