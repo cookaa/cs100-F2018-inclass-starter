@@ -45,6 +45,7 @@ Here are the commands that are related to each of the in-class programming proje
 - `gradle -q --console plain runComputeGasMileage` to run the `inclass.ComputeGasMileage` program
 - `gradle -q -console plain runLogisticMap --args='0'` to run the `inclass.RunLogisticMap` program
 - `gradle runPerformStringMutation` to run the `gradle runPerformStringMutation` program
+- `gradle -q --console plain runCompareInputValues` to run the `inclass.CompareInputValues` program
 
 ## Output
 
