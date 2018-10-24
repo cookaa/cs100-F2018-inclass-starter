@@ -30,3 +30,11 @@ src/main:
         inclass/PerformStringMutation.java:
             --count 40
             --fragment "println(" --count 7 --exact
+src/main:
+    java:
+        inclass/CompareInputValues.java:
+            --count 37
+            --single 4 --language Java
+            --multi 2 --language Java
+            --fragment "print(" --count 2 --exact
+            --fragment "println(" --count 2 --exact
