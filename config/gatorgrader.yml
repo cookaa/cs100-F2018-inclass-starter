@@ -13,6 +13,7 @@ src/main:
             --multi 2 --language Java
             --fragment "println(" --count 4 --exact
             --fragment "new Date(" --count 1 --exact
+            --fragment "TODO" --count 0 --exact
 src/main:
     java:
         inclass/ComputeGasMileage.java:
@@ -21,6 +22,7 @@ src/main:
             --multi 2 --language Java
             --fragment "print(" --count 2 --exact
             --fragment "println(" --count 1 --exact
+            --fragment "TODO" --count 0 --exact
 src/main:
     java:
         inclass/DisplayLogisticMap.java:
@@ -30,6 +32,7 @@ src/main:
         inclass/PerformStringMutation.java:
             --count 40
             --fragment "println(" --count 7 --exact
+            --fragment "TODO" --count 0 --exact
 src/main:
     java:
         inclass/CompareInputValues.java:
@@ -38,3 +41,12 @@ src/main:
             --multi 2 --language Java
             --fragment "print(" --count 2 --exact
             --fragment "println(" --count 2 --exact
+            --fragment "TODO" --count 0 --exact
+src/main:
+    java:
+        inclass/ComputeAverage.java:
+            --count 50
+            --single 8 --language Java
+            --multi 2 --language Java --exact
+            --fragment "println(" --count 4 --exact
+            --fragment "TODO" --count 0 --exact
