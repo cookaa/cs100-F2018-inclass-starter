@@ -1,4 +1,4 @@
-# cs100-F2018-inclass-solution
+# cs100-F2018-inclass-starter
 
 ## Introduction
 
