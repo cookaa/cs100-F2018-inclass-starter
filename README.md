@@ -1,4 +1,4 @@
-# cs100-F2018-inclass-starter
+# cs100-F2018-inclass-solution
 
 ## Introduction
 
@@ -46,6 +46,7 @@ Here are the commands that are related to each of the in-class programming proje
 - `gradle -q -console plain runLogisticMap --args='0'` to run the `inclass.RunLogisticMap` program
 - `gradle runPerformStringMutation` to run the `gradle runPerformStringMutation` program
 - `gradle -q --console plain runCompareInputValues` to run the `inclass.CompareInputValues` program
+- `gradle -q --console plain runComputeAverage` to run the `inclass.ComputeAverage` program
 
 ## Output
 
@@ -85,6 +86,12 @@ submission must pass the following checks:
   - Contains exactly two uses of a `print(` statement
   - Contains exactly two uses of a `println(` statement
   - Contains at least 37 non-blank lines of source code
+
+- inclass/ComputeAverage:
+  - Features at least eight single-line comments
+  - Features at least two multiple-line comments
+  - Contains exactly four uses of a `println(` statement
+  - Contains at least 50 non-blank lines of source code
 
 ## Updates
 
