@@ -50,3 +50,8 @@ src/main:
             --multi 2 --language Java --exact
             --fragment "println(" --count 4 --exact
             --fragment "TODO" --count 0 --exact
+writing/coveros.md:
+    mdl
+    proselint
+    --paragraphs 1 --exact
+    --words 100
