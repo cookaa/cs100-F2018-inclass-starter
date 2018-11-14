@@ -50,6 +50,14 @@ src/main:
             --multi 2 --language Java --exact
             --fragment "println(" --count 4 --exact
             --fragment "TODO" --count 0 --exact
+src/main:
+    java:
+        inclass/ComputeMultiples.java:
+            --count 63
+            --single 22 --language Java --exact
+            --multi 3 --language Java --exact
+            --fragment "println(" --count 3 --exact
+            --fragment "TODO" --count 0 --exact
 writing/coveros.md:
     mdl
     proselint
