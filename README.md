@@ -1,4 +1,4 @@
-# cs100-F2018-inclass-starter
+# cs100-F2018-inclass-solution
 
 ## Introduction
 
@@ -47,6 +47,7 @@ Here are the commands that are related to each of the in-class programming proje
 - `gradle runPerformStringMutation` to run the `gradle runPerformStringMutation` program
 - `gradle -q --console plain runCompareInputValues` to run the `inclass.CompareInputValues` program
 - `gradle -q --console plain runComputeAverage` to run the `inclass.ComputeAverage` program
+- `gradle -q --console plain runComputeMultiples` to run the `inclass.ComputeMultiples` program
 
 ## Output
 
@@ -65,6 +66,7 @@ submission must pass the following checks:
   - Contains exactly four uses of a `println(` statement
   - Contains exactly one use of a `new Date(` statement
   - Contains at least 33 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
 
 - inclass/ComputeGasMileage.java:
   - Features at least four single-line comments
@@ -72,13 +74,16 @@ submission must pass the following checks:
   - Contains exactly two uses of a `print(` statement
   - Contains exactly one use of a `println(` statement
   - Contains at least 35 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
 
 - inclass/DisplayLogisticMap.java:
   - Contains at least 95 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
 
 - inclass/PerformStringMutation.java:
   - Contains exactly seven uses of a `println(` statement
   - Contains at least 40 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
 
 - inclass/CompareInputValues.java
   - Features at least four single-line comments
@@ -86,12 +91,26 @@ submission must pass the following checks:
   - Contains exactly two uses of a `print(` statement
   - Contains exactly two uses of a `println(` statement
   - Contains at least 37 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
 
-- inclass/ComputeAverage:
+- inclass/ComputeAverage.java:
   - Features at least eight single-line comments
   - Features at least two multiple-line comments
   - Contains exactly four uses of a `println(` statement
   - Contains at least 50 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
+
+- inclass/ComputeMultiples.java:
+  - Features at least twenty-two single-line comments
+  - Features at least three multiple-line comments
+  - Contains exactly three uses of a `println(` statement
+  - Contains at least 63 non-blank lines of source code
+  - Does not contain any markers for incomplete tasks
+  - Contains the output from running the program as a comment
+
+- inclass/writing/coveros.md:
+  - Passes all of the Markdown and prose linting checks
+  - Contains exactly one paragraph of at least 100 words
 
 ## Updates
 
